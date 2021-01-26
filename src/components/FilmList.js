@@ -12,6 +12,7 @@ const FilmList = ({films}) => {
     return(
         <>
         {filmArray}
+        <br></br>
         </>
     );
 }

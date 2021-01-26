@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import FilmList from '../components/FilmList';
 import Releases from '../components/Releases';
+import '../FilmBox.css';
 
 const FilmBox = () => {
 
@@ -36,9 +37,11 @@ const FilmBox = () => {
 
     return(
         <>
-        <h1>Upcoming Film Releases for UK</h1>
-        <FilmList films={films}></FilmList>
-        <Releases> </Releases>
+        <div className="filmbox">
+            <h1>Upcoming Film Releases for UK</h1>
+            <FilmList films={films}></FilmList>
+            <Releases> </Releases>
+        </div>
         </>
     );
 }

@@ -1,0 +1,12 @@
+.filmbox {
+  background-color: #e3d041;
+  min-height: 60vh;
+  width: 60vh;
+  padding: 20px;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  border-color: rgb(4, 26, 67);
+  border-width: 10px;
+  border-radius: 20px;
+}
